@@ -5,8 +5,8 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
-import Home from "./components/Home";
-import Reservations from "./components/Reservations";
+import Home from "./pages/Home";
+import Reservations from "./pages/Reservations";
 
 //defin
 const router = createBrowserRouter(
