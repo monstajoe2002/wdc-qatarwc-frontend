@@ -7,3 +7,9 @@
 Run the server:
 
 ```npm run dev```
+
+## Notes
+
+To import environment variables use the following command:
+
+```import.meta.env.<MY_ENV_VAR>```
