@@ -6,14 +6,13 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "./pages/Home";
-import Reservations from "./pages/Reservations";
+import Reservation from "./pages/Reservation";
 
-//defin
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/">
       <Route index element={<Home />} />
-      <Route path="reservations" element={<Reservations />} />  {/* */}
+      <Route path="reservation" element={<Reservation />} /> 
       {/* define your own routes here */}
     </Route>
   )
